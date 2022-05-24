@@ -4,10 +4,10 @@ import logo from '../../logo.svg';
 import './navbar.css';
 
 function Navbar() {
-	const [show] = useState(false); //change [show] to [show, setShow] if uncommenting showNav() below
-	// const showNav = () => {
-	// 	setShow(!show);
-	// };
+	const [show, setShow] = useState(false); //change [show] to [show, setShow] if uncommenting showNav() below
+	const showNav = () => {
+		setShow(!show);
+	};
 
 	return (
 		<header className='w-full py-3'>
@@ -16,11 +16,10 @@ function Navbar() {
 					<img src={logo} alt='logo'/>
 					<h1 className='text-3xl text-white font-semibold' >{/*Navbar*/}</h1>
 				</Link>
-				{/* <button className='navbar-collapse' onClick={() => showNav()}>
-					<FontAwesomeIcon icon={faBars} />
-				</button> */}
+				{ <button className='navbar-collapse' onClick={() => showNav()}>
+				</button> }
 				<nav className={`${show ? 'show' : ''}`}>
-					{/* <ul className='nav-links grow'>
+					 <ul className='nav-links grow'>
 						<li className='text-white hover:text-gray-300'>
 							<Link to='/'>Page 1</Link>
 						</li>
@@ -38,7 +37,7 @@ function Navbar() {
 						<li className='text-white hover:text-gray-300'>
 							<Link to='login'>Login</Link>
 						</li>
-					</ul> */}
+					</ul> 
 				</nav>
 			</div>
 		</header>

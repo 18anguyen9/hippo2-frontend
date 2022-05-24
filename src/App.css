@@ -10,6 +10,7 @@
 :root {
     --main_green: #13A769;
     --main_grey: #383838;
+    --secondary_grey: rgba(202, 205, 204, 0.75);
     --placeholder_text: #979797;
     --button_green: rgba(15, 184, 113, 0.83);
     --large_text: 2.2rem;
