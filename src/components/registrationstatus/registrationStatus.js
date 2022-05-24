@@ -1,7 +1,7 @@
 import './registrationStatus.css';
 import Button from '../button/button'
 
-function PaymentLogs() {
+function RegistrationStatus() {
     return (
         <div className='container max-w-lg flex flex-wrap mx-auto p-4 auth bg-white rounded-xl'>
             <div className='flex-none w-full py-5 px-8 bg-white'>
@@ -21,4 +21,4 @@ function PaymentLogs() {
     );
 }
 
-export default PaymentLogs;
+export default RegistrationStatus;

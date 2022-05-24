@@ -1,0 +1,51 @@
+@import '../../App.css';
+
+/* Styling for texts */
+.top-text {
+    text-align: center;
+    font-size: var(--large_text);
+    font-family: var(--main_font);
+    padding-bottom: 20px;
+}
+
+.column-header {
+    font-size: var(--medium_text);
+    font-family: var(--main_font);
+}
+
+.table-wrapper {
+    overflow-y: scroll;
+    height: 8rem;
+}
+
+tr {
+    padding-bottom: 1rem;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    color: var(--placeholder_text);
+}
+
+.total-section {
+    font-size: var(--medium_text);
+    font-family: var(--main_font);
+    padding-top: 1rem;
+}
+
+.total-label {
+    font-size: var(--medium_text);
+    font-family: var(--main_font);
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+
+.total-cost {
+    font-size: var(--medium_text);
+    font-family: var(--main_font);
+    color: #E25353;
+    border: none;
+    border-bottom: 1px solid #979797;
+    display: inline-block;
+}

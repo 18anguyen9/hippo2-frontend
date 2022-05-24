@@ -1,18 +1,6 @@
 @import '../../App.css';
 
-/* flex all elements horizontally */
-.paymentLogs {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-grow: 0;
-	flex-shrink: 0;
-    background: #FFFFFF;
-    border-radius: 20px;
-    width: max-content;
-    padding: 100px;
-}
-
+/* Styling for texts */
 .top-text {
     text-align: center;
     font-size: 1.4rem;
@@ -40,16 +28,4 @@
     font-weight: 300;
     font-size: var(--medium_text);
     color: #0016D8;
-}
-
-.button {
-    box-sizing: border-box;
-    width: 261px;
-    height: 58px;
-    left: 167px;
-    top: 810px;
-
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius: 40px;
 }
