@@ -1,3 +1,27 @@
+/* This is the file that lets us add variables to tailwind so that we can use them with other tailwind styles. */
+/* This file and App.css should have the same variables in them */
+/* Documentation for the full process is at https://www.notion.so/aicamp/Unified-Styling-2e76e8e9c9e04129900f8a332d33d4ef */
+
+/* Import Font */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+/* Variable Definitions */
+:root {
+    --main_green: #13A769;
+    --main_grey: #383838;
+    --placeholder_text: #979797;
+    --button_green: rgba(15, 184, 113, 0.83);
+    --large_text: 2.2rem;
+    --medium_text: 1.2rem;
+    --small_text: 0.9rem;
+    --main_font: 'Open Sans', sans-serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
