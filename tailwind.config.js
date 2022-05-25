@@ -8,7 +8,8 @@ module.exports = {
         "main_green": "var(--main_green)",
         "main_grey": "var(--main_grey)",
         "placeholder_text": "var(--placeholder_text)",
-        "button_green": "var(--button_green)"
+        "button_green": "var(--button_green)",
+        "banner_grey": "var(--banner_grey)"
       },
       fontFamily: {
         "main_font": "var(--main_font)"
