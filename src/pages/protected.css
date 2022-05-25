@@ -1,0 +1,11 @@
+@import '../App.css';
+
+/* Styling for texts */
+.large-name {
+    text-align: center;
+    font-size: var(--large_text);
+    font-family: var(--main_font);
+    padding: 0.5rem;
+    display: inline-block;
+    padding-right: 65%;
+}
